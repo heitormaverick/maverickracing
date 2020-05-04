@@ -1,0 +1,62 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0px;
+}
+
+a {
+    font-size: 16pt;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+div.panel {
+    margin: 20 100;
+    text-align: center;
+}
+
+div.panel row {
+    display: inline-block;
+}
+
+div.panel iframe {
+    margin: 0 50;
+}
+
+a:hover {
+    text-decoration: none;
+    font-weight: bold;
+    color: gray;
+}
+
+div.header {
+    background-color: black;
+    /* padding: 4px; */
+}
+
+div.menu img.logo {
+    width: 75px;
+    height: 75px;
+    position: absolute;
+    top: 4;
+    left: 0;
+}
+
+div.botoes {
+    text-align: center;
+}
+
+div.menu {
+    background-color: red;
+    height: 80px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+div.menu a {
+    display: inline-block;
+    margin: px 20px;
+}
