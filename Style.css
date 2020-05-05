@@ -13,19 +13,6 @@ a {
     text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 
-div.panel {
-    margin: 20 100;
-    text-align: center;
-}
-
-div.panel row {
-    display: inline-block;
-}
-
-div.panel iframe {
-    margin: 0 50;
-}
-
 a:hover {
     text-decoration: none;
     font-weight: bold;
@@ -34,15 +21,6 @@ a:hover {
 
 div.header {
     background-color: black;
-    /* padding: 4px; */
-}
-
-div.menu img.logo {
-    width: 75px;
-    height: 75px;
-    position: absolute;
-    top: 4;
-    left: 0;
 }
 
 div.botoes {
@@ -51,12 +29,91 @@ div.botoes {
 
 div.menu {
     background-color: red;
-    height: 80px;
+    height: 75px;
     text-align: center;
     vertical-align: middle;
 }
 
 div.menu a {
     display: inline-block;
-    margin: px 20px;
+    margin: 20px;
+}
+
+div.menu a#logo {
+    width: 75px;
+    height: 75px;
+    position: absolute;
+    display: block;
+    top: 4;
+    left: 0;
+    margin: 0;
+}
+
+div.menu a#logo img {
+    width: 75px;
+    height: 75px;
+}
+
+div.content h1 {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+div.content {
+    text-align: center;
+    color: red;
+}
+
+div.mods a {
+    color: white;
+}
+
+div.mods {
+    text-align: center;
+}
+
+h3 {
+    text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white;
+}
+
+div.mods button {
+    border: transparent;
+    border-radius: 7px;
+    margin: 20px;
+}
+
+div.pistasI button {
+    background-color: darkred;
+}
+
+div.pCarros button {
+    background-color: blue;
+}
+
+div.skins button {
+    background-color: olive;
+}
+
+div.sons button {
+    background-color: yellow;
+}
+
+.pistasI {
+    color: darkred;
+}
+
+.pCarros {
+    color: blue;
+}
+
+.skins {
+    color: olive;
+}
+
+.sons {
+    color: yellow;
+}
+
+div.subscribe {
+    margin-top: 10px;
 }
