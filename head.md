@@ -1,3 +1,5 @@
+---
+---
 <head>
     <title>Maverick Racing</title>
     <!-- link to main stylesheet -->
